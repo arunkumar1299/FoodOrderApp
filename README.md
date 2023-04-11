@@ -1,5 +1,5 @@
-## Project title
-<i>Food_Order_App</i>
+## Project title :    <u><i>Food_Order_App</i></u>
+
 
 ## Project description
 
