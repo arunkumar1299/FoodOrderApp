@@ -38,3 +38,4 @@ Added backend using Firebase to retrieve the data and implemented form validatio
  - Global State management using `Context-api` to share data and functionality between components.
  - Implement the backdrop feature, we used a React portal to render a div element outsie of the root element of the application.
  - Form validation for ordering food, ensuring that users provide all the necessary information accurately.
+ - Async/await functions can help improve the user experience by making the app faster and more responsive. For example, using async/await functions can allow the app to load data in the background while still allowing the user to interact with the app.
