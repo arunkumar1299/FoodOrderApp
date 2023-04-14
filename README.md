@@ -4,8 +4,7 @@
 ## Project description
 
 Food order app is a food ordering application built using ReactJS that allows users to easily order. 
-This app does not require any backend server and can be used as a standalone application.
-
+Added backend using Firebase to retrieve the data and implemented form validation for ordering food.
 ## Installation
 ##   To run this app on your local machine, follow these steps:
  1.  Clone this repository to your local machine using the following command in a command prompt or terminal:
@@ -23,15 +22,19 @@ This app does not require any backend server and can be used as a standalone app
 - Users can add items to their cart and view the items they've selected.
 - Users can adjust the quantity of items in their cart or remove items.
 - Users can view a subtotal and total for their order.
+- The updated Food Order App now provides additional features to make it more user-friendly and efficient. With the backend integration using Firebase, users can now retrieve data seamlessly. The form validation for ordering food ensures that users provide all the necessary information to place an order accurately. 
+- Furthermore, the form validation feature ensures that the user fills in all the required information correctly, preventing any errors in placing an order. 
 
  ## Technologies used 
  This app was built using the following technologies:
  - React
  - React Hooks(useState, useEffect, useReducer)
  - Context API
+ - Firebase(as Backend)
  
  ## Features 
  - State management using `useState` and `useReducer` hooks to user's cart .
  - Side effects handling using `useEffect` .
  - Global State management using `Context-api` to share data and functionality between components.
  - Implement the backdrop feature, we used a React portal to render a div element outsie of the root element of the application.
+ - Form validation for ordering food, ensuring that users provide all the necessary information accurately.
